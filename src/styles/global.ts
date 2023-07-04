@@ -10,10 +10,12 @@ export const GlobalStyles = createGlobalStyle`
 
     body{
         width: 100%;
-        max-width: 1120px;
+        /* max-width: 1120px; */
         height: 100vh;
 
         background-color: ${props=>props.theme.background};
         color: ${props=> props.theme.text};
    }
+
+
 `
