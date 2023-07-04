@@ -4,10 +4,10 @@ export const HeaderContainer = styled.header`
     background: ${props=>props.theme.profile};
     height: 18.5rem;
     width: 100%;
-    /* position: absolute; */
     
     display: flex;
     justify-content: space-between;
+    /* z-index: 1;   */
 
     .left{
         margin-top: 70px;
@@ -17,8 +17,8 @@ export const HeaderContainer = styled.header`
     .right{
         margin-top: 30px;
         width: 371px;
-        height: 236px
-
+        height: 236px;
+        /* z-index: -1; */
     }
 
     .logo{
@@ -34,5 +34,6 @@ export const HeaderContainer = styled.header`
         left: 50%;
         
         transform: translate(-50%,-50%);
+        /* z-index: -1 ; */
     }
 `

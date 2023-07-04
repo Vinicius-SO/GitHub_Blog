@@ -12,6 +12,7 @@ export function App() {
       <GlobalStyles/>
       <Header/>
       <Profile/>
+
     </ThemeProvider>
   )
 }
