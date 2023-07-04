@@ -2,8 +2,8 @@ import { ThemeProvider } from 'styled-components'
 import { defaultTheme } from './styles/themes/default'
 import { GlobalStyles } from './styles/global'
 import { Header } from './components/Header'
+import { Profile } from './components/Profile'
 
-// import Cover from './assets/Cover.svg'
 
 
 export function App() {
@@ -11,6 +11,7 @@ export function App() {
     <ThemeProvider theme={defaultTheme}>
       <GlobalStyles/>
       <Header/>
+      <Profile/>
     </ThemeProvider>
   )
 }

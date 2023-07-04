@@ -4,7 +4,7 @@ export const HeaderContainer = styled.header`
     background: ${props=>props.theme.profile};
     height: 18.5rem;
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
     
     display: flex;
     justify-content: space-between;
@@ -30,7 +30,7 @@ export const HeaderContainer = styled.header`
     div{
         position: absolute;
         /* bottom: 0; */
-        top: 55%;
+        top: 22%;
         left: 50%;
         
         transform: translate(-50%,-50%);
